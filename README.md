@@ -4,10 +4,13 @@
     ```bash
     poetry install
     ```
-2. Run the crawler
+1. Spin up the virtual environment
     ```bash
     poetry shell
-    python example.py
     ```
-
-![image](https://user-images.githubusercontent.com/1169974/55775967-27f5d900-5a69-11e9-8733-fb31f5add62d.png)
+1. Run the crawler
+    ![image](https://user-images.githubusercontent.com/1169974/55775967-27f5d900-5a69-11e9-8733-fb31f5add62d.png)
+1. Run tests
+    ```bash
+    pytest
+    ```
